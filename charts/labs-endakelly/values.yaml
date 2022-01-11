@@ -1,7 +1,7 @@
 java:
   applicationPort: 8080
-  image: 'hmctspublic.azurecr.io/labs/endakelly:latest'
-  ingressHost: labs-endakelly-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
+  image: 'sdshmctspublic.azurecr.io/labs/endakelly:staging-5dfdb47-20220110133919'
+  ingressHost: labs-endakelly-{{ .Values.global.environment }}.platform.hmcts.net
   aadIdentityName: labs
   environment:
     FAVOURITE_FRUIT: plum
